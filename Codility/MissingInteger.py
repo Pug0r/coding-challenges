@@ -2,7 +2,7 @@
 # print("this is a debug message")
 
 def solution(A):
-  ''' O(nlogn) solution '''
+  """ O(nlogn) solution """
     numbers = list(set(A))
     if 1 not in numbers:
         return 1
