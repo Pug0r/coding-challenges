@@ -3,7 +3,7 @@
 from collections import Counter
 
 def solution(A):
-    ''' O(n) solution '''
+    """ O(n) solution """
     counter = Counter(A)
     for key, value in counter.items():
         if value % 2 != 0:
