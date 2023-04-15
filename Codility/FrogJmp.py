@@ -2,7 +2,7 @@
 # print("this is a debug message")
 
 def solution(X: int, Y: int, D: int) -> int:
-  ''' O(1) solution '''
+  """ O(1) solution """
     distance = Y - X
     if distance % D == 0:
         return distance // D
